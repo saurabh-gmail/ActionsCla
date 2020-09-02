@@ -22,7 +22,7 @@ public class ActionsDemo {
 		WebElement move = driver.findElement(By.id("nav-link-accountList"));
 		WebElement move1 = driver.findElement(By.xpath("//input[@Id='twotabsearchtextbox']"));
 		a.moveToElement(move1).click().keyDown(Keys.SHIFT).sendKeys("shirt").doubleClick().build().perform();
-		driver.quit();
+		
 		
 		
 		
